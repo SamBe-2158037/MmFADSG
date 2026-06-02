@@ -1,4 +1,5 @@
 This is the repository pertaining to my master Thesis: "Identifying echo chambers in social networks via dense subgraph detection".
+
 TLDR: This method uses a fair dense subgraph detection compatible with multiple groups present.
 
 ## Abstract:
