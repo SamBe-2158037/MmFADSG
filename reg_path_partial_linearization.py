@@ -93,7 +93,8 @@ def main():
         result = super_greedy_pp_lse_DC_SSP(
             G, S0, protected_nodes, lam=Lam,
             mu=mu, alpha=alpha,
-            num_passes=T, num_outer=num_outer
+            num_passes=T, num_outer=num_outer,
+            lin_method=linearization_method
         )
         result_G = G.subgraph(result[0])
 
